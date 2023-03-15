@@ -6,6 +6,15 @@ body {
     display: block;
 
 }
+.banner{
+    display: inline;
+    
+}
+.banner>img{
+    height: 300px;
+    margin: 5px;
+    border: 2px solid blue;
+}
 
 header {
     font-weight: bolder;
