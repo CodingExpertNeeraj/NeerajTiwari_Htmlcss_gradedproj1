@@ -215,3 +215,7 @@ footer {
     padding: 20px;
     text-align: center;
 }
+#store{
+    border: 2px solid black;
+    margin: 5px;
+}
