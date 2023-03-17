@@ -250,4 +250,12 @@ button{
     border: 2px solid purple;
     border-radius: 50%;
     padding: 5px;
+    font-weight: bold;
+}
+p{
+    color: rgb(22, 94, 175);
+}
+button:hover{
+    background-color: rgb(250, 234, 230);
+    border-color: rgb(0, 255,76);
 }
