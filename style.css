@@ -2,12 +2,12 @@ body {
     background-color: whitesmoke;
     margin: 0%;
     height: auto;
-
+    box-sizing: border-box;
     display: block;
 
 }
 .banner{
-    display: inline;
+    display: inline-block;
     
 }
 .banner>img{
@@ -98,7 +98,7 @@ li {
     background-color: rgb(87, 86, 86);
 }
 
-.photobanner {
+/* .photobanner {
 
     height: 233px;
     width: 3550px;
@@ -113,7 +113,7 @@ li {
     width: 700px;
     height: 300px;
     display: inline-block;
-}
+} */
 
 .first {
     border-radius: 10px;
@@ -157,12 +157,9 @@ article {
 
 }
 
-#store {
-    position: relative;
 
-}
 
-h2 {
+/* h2 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -170,7 +167,7 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
+} */
 
 #covidcare {
     margin: 10px;
@@ -218,4 +215,39 @@ footer {
 #store{
     border: 2px solid black;
     margin: 5px;
+    padding: 10px;
+}
+.box{
+    /* border: 1px solid black; */
+    /* height: 200px; */
+    width: 100%;
+    /* height: 100vh; */
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(236, 248, 248);
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+}
+.box>img{
+    /* height: 100vh; */
+    width: 100%;
+    /* margin: 10% auto; */
+    padding: 10px;
+}
+#bottle{
+    padding: 20px auto;
+}
+#bottle{
+    height: 30%;
+}
+button{
+    /* margin: 5%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border: 2px solid purple;
+    border-radius: 50%;
+    padding: 5px;
 }
