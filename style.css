@@ -57,31 +57,6 @@ li {
     z-index: 1;
 }
 
-#addtocart {
-    color: rgb(192, 192, 5);
-    font-size: 18px;
-    font-weight: bolder;
-    background-color: rgb(171, 212, 226);
-    box-sizing: content-box;
-    width: 92%;
-    padding: 8px;
-    position: relative;
-    border-radius: 10px;
-    border: solid lightslategray;
-    display: inline-block;
-    border-style: groove;
-}
-
-.button #addtocart:hover {
-    background-color: rgb(250, 234, 230);
-    border-color: rgb(0, 255, 76);
-
-}
-
-.paraprice {
-    color: rgb(0, 102, 255);
-    margin: 0%;
-}
 
 .list li {
     display: inline-block;
@@ -96,24 +71,9 @@ li {
 
 .list li:hover {
     background-color: rgb(87, 86, 86);
+    /* color: blue; */
 }
 
-/* .photobanner {
-
-    height: 233px;
-    width: 3550px;
-    margin-bottom: 80px;
-}
-
-.photobanner img {
-
-    position: relative;
-    border: 2px solid steelblue;
-
-    width: 700px;
-    height: 300px;
-    display: inline-block;
-} */
 
 .first {
     border-radius: 10px;
@@ -258,4 +218,7 @@ p{
 button:hover{
     background-color: rgb(250, 234, 230);
     border-color: rgb(0, 255,76);
+}
+.box:hover{
+    transform: scale(1.2);
 }
